@@ -1,0 +1,102 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Karla", sans-serif;
+    text-decoration: none;
+}
+.headerContainer{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+.headerContainer .logo{
+    font-weight: bold;
+    padding: 25px;
+    font-size: 1.5rem;
+}
+.planView{
+    background-color: blueviolet;
+}
+ul li{
+    display: inline-block;
+    padding: 15px;
+}
+.headerWrapper{
+    position: relative;
+    height: 50vh;
+    background-color:  hsl(272, 23%, 31%);
+}
+.headerBody{
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.headerContainerText p{
+    width: 400px;
+}
+.headerContainerText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+.headerContainerText h1{
+    font-size: 2.5rem;
+    padding: 5px;
+}
+.headerContainerText p{
+    padding: 10px 0 10px 0;
+}
+.headerButton button{
+    padding: 10px;
+}
+.headerContainerphoto img{
+    position: absolute;
+    right: 200px;
+    bottom: -90px;
+}
+.first{
+    position: absolute;
+    left: 0;
+    bottom: -220px;
+}
+.second{
+    position: absolute;
+    right: 50px;
+    top: 0px;
+}
+.bodayContent{
+    display: flex;
+    justify-content: center;
+
+}
+.mainBody h1{
+    padding: 90px 370px;
+    font-weight:bolder;
+    font-size: 2.5rem;
+}
+.bodayContent p{
+    width: 250px;
+}
+
+.afterBodyContent{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    background-color:  hsl(272, 23%, 31%);
+    padding: 30px;
+    color: white;
+
+}
+.afterBody{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+
+
+}
+
+
