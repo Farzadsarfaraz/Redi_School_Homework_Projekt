@@ -17,12 +17,16 @@
     padding: 25px;
     font-size: 1.5rem;
 }
-.planView{
-    background-color: blueviolet;
+ul{
+    text-align: center;
+    align-items: center;
 }
 ul li{
     display: inline-block;
     padding: 15px;
+}
+ul li:hover{
+    background-color: rgb(201, 192, 210);
 }
 .nav .hidden{
     transition: 1s;
@@ -178,7 +182,6 @@ ul li{
         width: 100%;
         padding:90px 0;
         text-align: center;
-        border: red solid;
 }
 header{
     display: flex;
@@ -272,6 +275,9 @@ ul{
         font-weight:bolder;
         font-size: 2.5rem;
         text-align: center;
+    }
+    .footerEndContent ul{
+        width: 100%;
     }
 }
 }
