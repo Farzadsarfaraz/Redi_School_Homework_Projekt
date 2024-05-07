@@ -37,9 +37,6 @@ ul li{
     display: flex;
     justify-content: space-around;
 }
-.headerContainerText p{
-    width: 400px;
-}
 .headerContainerText{
     display: flex;
     flex-direction: column;
@@ -52,6 +49,7 @@ ul li{
 }
 .headerContainerText p{
     padding: 10px 0 10px 0;
+    width: 400px;
 }
 .headerButton button{
     padding: 10px;
@@ -104,15 +102,29 @@ ul li{
     width: 8rem;
     height: 3rem;
     cursor: pointer;
-
-
 }
 .afterBody{
     display: flex;
     justify-content: center;
     padding: 50px;
-
-
+}
+.footer_logo{
+    display: flex;
+    justify-content:space-between;
+    padding: 20px 40px;
+}
+.footer_logo a{
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+.footerEndContent{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 90px;
+}
+.footerEndContent ul{
+    display: flex;
+    flex-direction: column;
 }
 .Hamburger{
     position: relative;
