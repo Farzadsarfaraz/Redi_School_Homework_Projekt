@@ -76,7 +76,12 @@ ul li{
 }
 .bodayContent svg{
     transition: 4s;
-    
+    animation: rotate 20s infinite linear ;
+}
+@keyframes rotate{
+    0%{
+        transform: rotate(360deg);
+    }
 }
 .bodyProcess{
     padding: 30px;
