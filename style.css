@@ -255,9 +255,6 @@ ul{
     .hidden{
         display: none;
     }
-    .headerWrapper{
-        width: 100%;
-    }
     .headerContainerphoto img{
         position: inherit;
         
