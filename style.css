@@ -74,14 +74,19 @@ ul li{
     justify-content: center;
     flex-wrap: wrap;
 }
+.bodayContent svg{
+    transition: 4s;
+    
+}
 .bodyProcess{
     padding: 30px;
 
 }
 .mainBody h1{
-    padding: 90px 370px;
-    font-weight:bolder;
+    padding: 90px 0px 0px 220px;
+    font-weight:1000;
     font-size: 2.5rem;
+
 }
 .bodayContent p{
     width: 250px;
@@ -121,10 +126,15 @@ ul li{
     display: flex;
     justify-content: space-between;
     padding: 10px 90px;
+    flex-wrap: wrap;
 }
 .footerEndContent ul{
     display: flex;
     flex-direction: column;
+}
+.footerEndContent .h1{
+    font-weight: bold;
+    color: rgb(92, 92, 29);
 }
 .Hamburger{
     position: relative;
@@ -155,6 +165,61 @@ ul li{
 .Hamburger.is-active .bar{
     opacity: 0;
 }
+@media( max-width: 690px){
+    .bodyProcess{
+        text-align: center;
+    } 
+    .mainBody h1{
+        width: 100%;
+        padding:90px 0;
+        text-align: center;
+        border: red solid;
+}
+header{
+    display: flex;
+}
+
+.headerContainer{
+    flex-direction: column;
+    width: 100%;
+}
+.headerContainerText p{
+    width: 100%;
+}
+.Hamburger{
+    display: block;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+}
+.logodiv{
+    display: flex;
+    justify-content: space-between;
+}
+.hidden{
+    display: none;
+}
+.headerWrapper{
+    width: 100%;
+}
+.headerContainerphoto img{
+    position: inherit;
+    
+
+}
+.headerBody{
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+    align-items: center;
+    position: relative;
+}
+.afterBodyContent{
+    width: 100%;
+}
+
 @media( max-width: 500px){
     header{
         display: flex;
@@ -203,4 +268,5 @@ ul li{
         font-size: 2.5rem;
         text-align: center;
     }
+}
 }
