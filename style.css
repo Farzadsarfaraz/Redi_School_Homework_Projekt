@@ -78,8 +78,8 @@ ul li:hover{
 }
 .second{
     position: absolute;
-    right: 0px;
-    top: 0px;
+    right: 0;
+    top: 0;
 }
 .bodayContent{
     display: flex;
