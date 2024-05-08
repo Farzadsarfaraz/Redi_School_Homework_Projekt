@@ -33,7 +33,7 @@ ul li:hover{
 }
 .headerWrapper{
     position: relative;
-    height: 60vh;
+    height: 400px;
     background-color:  hsl(272, 23%, 31%);
 }
 .headerBody{
