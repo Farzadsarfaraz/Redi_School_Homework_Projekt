@@ -37,9 +37,12 @@ ul li:hover{
     background-color:  hsl(272, 23%, 31%);
 }
 .headerBody{
-    height: 100%;
+    position: relative;
     display: flex;
     justify-content: space-around;
+    height: 100%;
+    flex-wrap: wrap;
+
 }
 .headerContainerText{
     display: flex;
@@ -58,10 +61,15 @@ ul li:hover{
 .headerButton button{
     padding: 10px;
 }
-.headerContainerphoto img{
-    position: absolute;
-    right: 200px;
-    bottom: -90px;
+.headerContainerphoto{
+    background-image: url(image-intro-desktop.jpg);
+    height: 400px;
+    width: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 80px;
+    border-radius: 10px;
 }
 .first{
     position: absolute;
@@ -147,7 +155,6 @@ ul li:hover{
 }
 .Hamburger{
     position: relative;
-    display:block;
     width: 35px;
     cursor: pointer;
     appearance: none;
@@ -174,68 +181,15 @@ ul li:hover{
 .Hamburger.is-active .bar{
     opacity: 0;
 }
-@media( max-width: 690px){
-    .bodyProcess{
-        text-align: center;
-    } 
-    .mainBody h1{
-        width: 100%;
-        padding:90px 0;
-        text-align: center;
-}
-header{
-    display: flex;
-}
-
-.headerContainer{
-    flex-direction: column;
-    width: 100%;
-}
-.headerContainerText p{
-    width: 100%;
-}
-.Hamburger{
-    display: block;
-}
-ul{
-    display: flex;
-    flex-direction: column;
-    text-align: end;
-}
-.logodiv{
-    display: flex;
-    justify-content: space-between;
-}
-.hidden{
-    display: none;
-}
-.headerWrapper{
-    width: 100%;
-}
-.headerContainerphoto img{
-    position: inherit;
-    
-
-}
-.headerBody{
-    display: flex;
-    flex-direction: column-reverse;
-    text-align: center;
-    align-items: center;
-    position: relative;
-}
-.afterBodyContent{
-    width: 100%;
-}
-
-@media( max-width: 500px){
-    header{
-        display: flex;
-    }
+@media( max-width: 768px){
 
     .headerContainer{
         flex-direction: column;
         width: 100%;
+    }
+    .headerWrapper{
+        height: 80vh;
+        position: relative;
     }
     .headerContainerText p{
         width: 100%;
@@ -255,17 +209,17 @@ ul{
     .hidden{
         display: none;
     }
-    .headerContainerphoto img{
-        position: inherit;
-        
-
+    .headerContainerphoto{
+        margin: 0;
     }
     .headerBody{
+        width: 100%;
+        height: 100%;
         display: flex;
         flex-direction: column-reverse;
         text-align: center;
         align-items: center;
-        position: relative;
+        justify-content: center;
     }
     .mainBody h1{
         padding: 30px 0px;
@@ -276,5 +230,19 @@ ul{
     .footerEndContent ul{
         width: 100%;
     }
+}
+@media( max-width: 470px){
+    .headerContainer{
+        flex-direction: column;
+        width: 100%;
+    }
+    .headerWrapper{
+        height: 80vh;
+        position: relative;
+    }
+    .headerContainerphoto{
+        margin: 0;
+        height: 80vw;
+        width: 70vw;
 }
 }
