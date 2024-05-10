@@ -81,6 +81,9 @@ ul li:hover{
     right: 0;
     top: 0;
 }
+hr{
+    margin: auto;
+}
 .bodayContent{
     display: flex;
     justify-content: center;
