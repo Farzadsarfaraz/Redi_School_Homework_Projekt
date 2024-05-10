@@ -121,10 +121,13 @@ hr{
     flex-wrap: wrap;
     color: aliceblue;
 }
+.afterBodyContent h1{
+    padding: 7px;
+}
 .afterBodyContent button{
-    padding: 2px;
+    padding: 5px;
     background-color:  hsl(272, 23%, 31%);
-    width: 8rem;
+    width: 6rem;
     height: 3rem;
     cursor: pointer;
 }
@@ -165,6 +168,7 @@ hr{
     outline: none;
     border: none;
     display: none;
+    transition: 1s;
 }
 .Hamburger .bar, .Hamburger:after, .Hamburger:before{
     content: '';
@@ -173,13 +177,15 @@ hr{
     height: 5px;
     background-color: rgb(244, 0, 0);
     margin: 6px 0px;
-    transition: 0.4s;
+    transition: 1s;
 }
 .Hamburger.is-active:before{
     transform: rotate(-45deg) translate(-8px, 6px);
+    transition: 1;
 }
 .Hamburger.is-active:after{
     transform: rotate(45deg) translate(-9px, -8px);
+    transition: 1s;
 }
 .Hamburger.is-active .bar{
     opacity: 0;
@@ -233,6 +239,11 @@ hr{
     }
     .footerEndContent ul{
         width: 100%;
+    }
+    .first{
+        width: 300px;
+        height: 600px;
+        top: 0;
     }
 }
 @media( max-width: 470px){
