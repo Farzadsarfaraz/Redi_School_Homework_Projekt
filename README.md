@@ -1,4 +1,4 @@
-# Live link = (https://farzadsarfaraz.github.io/Redi_School_Homework_Projekt/New.HTML)
+ Live link = https://farzadsarfaraz.github.io/Redi_School_Homework_Projekt/New.HTML
 
 🛡️ Project Overview – Insurance Website (HTML & CSS)
 This is a basic insurance-themed website created using only HTML and CSS. The goal of the project is to demonstrate understanding of web structure, layout design, and visual styling using modern front-end techniques.
